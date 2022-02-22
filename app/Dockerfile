@@ -1,6 +1,4 @@
-FROM python:3.7
-
-ENV PYTHONIOENCODING utf-8
+FROM jupyter/base-notebook:latest
 
 WORKDIR /app
 
