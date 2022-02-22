@@ -1,7 +1,7 @@
 version: "3"
 services:
   selenium:
-    image: selenium/standalone-chrome:latest
+    image: seleniarm/standalone-chromium:4.1.1-alpha-20220119
     shm_size: 2gb
     ports:
       - 4444:4444
